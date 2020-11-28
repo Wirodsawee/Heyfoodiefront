@@ -10,19 +10,9 @@ import { storesContext } from "../context"
 
 export default function Footer(props) {
   const { salesizeStore } = useContext(storesContext)
-  const [isPrefetch, setisPrefetch] = useState(true)
-  const fetchMenus = async () => {
-    await salesizeStore.fetchStore()
-    setisPrefetch(false)
-  }
-
-  useEffect(() => {
-    fetchMenus()
-  }, [])
 
   return (
     <>
-      {!isPrefetch && (
         <div>
           <footer className="footer-foot">
             <div className="container-fluid text-center text-md-left">
@@ -93,7 +83,6 @@ export default function Footer(props) {
             </div>
           </footer>
         </div>
-      )}
     </>
   )
 }
