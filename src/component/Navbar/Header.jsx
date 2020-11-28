@@ -85,7 +85,7 @@ export default function Header(props) {
   const renderShowCart = useMemo(
     () => (
       <>
-        {salesizeStore.store?.close_order > timeNow ? (
+        {salesizeStore.store?.close_order > timeNow && salesizeStore.store?.open_order < timeNow ? (
           <Button
             className="btn-cart"
             id="UncontrolledPopover"
