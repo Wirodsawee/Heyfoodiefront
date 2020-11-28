@@ -43,6 +43,18 @@ export default function Footer(props) {
                   </ul>
 
                   <p>{salesizeStore.store?.address}</p>
+
+                  <ul className="list-unstyled place">
+                    <li>
+                      <img className="img-footer" src={place} alt="img-place" />
+                      เวลาเปิด-ปิดร้าน
+                    </li>
+                  </ul>
+
+                  <p>
+                    {salesizeStore.store?.open_time} -{" "}
+                    {salesizeStore.store?.close_time}
+                  </p>
                 </div>
 
                 <div className="col-md-3 mb-md-0 mb-3">

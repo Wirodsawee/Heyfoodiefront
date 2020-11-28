@@ -13,7 +13,7 @@
   }
 }
 
-.a-point{
+.a-point {
   cursor: pointer !important;
 }
 
@@ -150,6 +150,10 @@
   font-size: 15px;
 }
 
+.pointer {
+  cursor: pointer;
+}
+
 .material-icons {
   font-family: "Material Icons";
   font-weight: normal;
@@ -238,10 +242,19 @@
   font-family: "Kanit", sans-serif;
   color: white;
   margin-top: 100px;
-  padding-top: 40px;
   width: 100%;
   height: 265px;
   background-color: #ffaa00;
+}
+
+.modal-backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1 !important;
+  width: 100vw;
+  height: 100vh;
+  background-color: #000;
 }
 
 .col-md-5.mt-md-0.mt-3 {

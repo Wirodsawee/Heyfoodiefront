@@ -9,7 +9,9 @@ export default function MainLayout(props) {
   return (
     <>
       <Header {...props}></Header>
-      <Child {...props} />
+      <div style={{ minHeight: "100vh" }}>
+        <Child {...props} />
+      </div>
       <Footer></Footer>
     </>
   )

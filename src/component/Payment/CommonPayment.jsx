@@ -57,6 +57,7 @@ export default function CommonPayment(props) {
         }),
       }
       await orderService.create(orderMenu)
+      cartStore.setCart([])
       navigate("/queuepage")
     } else {
       alert("กรุณา Login ก่อนทำการสั่งซื้อสินค้า")
@@ -129,7 +130,7 @@ export default function CommonPayment(props) {
               )} */}
             </div>
           </div>
-          <br/>
+          <br />
           <div className="row justify-content-center">
             <div className="col-3 p-0 text-center">
               <Button

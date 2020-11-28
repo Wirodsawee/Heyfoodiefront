@@ -23,12 +23,7 @@ export default function ModalTest(props) {
           Login
         </a>
       )}
-      <Modal
-        show={show}
-        onHide={handleClose}
-        backdrop="static"
-        keyboard={false}
-      >
+      <Modal show={show} onHide={handleClose} keyboard={false}>
         <Modal.Header closeButton>
           {props.userStore.user ? (
             <Modal.Title>
@@ -47,9 +42,8 @@ export default function ModalTest(props) {
                 <p>คุณสามารถดูสถานะคำสั่งซื้อได้ที่</p>
                 <h6>
                   <a
-                    href="#"
                     onClick={() => navigate("/queuepage")}
-                    className="tooltip-test"
+                    className="tooltip-test pointer"
                     title="StatusOrder"
                   >
                     Status Order
@@ -58,16 +52,15 @@ export default function ModalTest(props) {
                 <p>คุณสามารถดูประวัติการซื้อย้อนหลังได้ที่</p>
                 <h6>
                   <a
-                    href="#"
                     onClick={() => navigate("/historypage")}
-                    className="tooltip-test"
+                    className="tooltip-test pointer"
                     title="History"
                   >
                     History
                   </a>
                 </h6>
               </div>
-              <Modal.Footer className="col-3 ml-auto">
+              <Modal.Footer className="ml-auto">
                 <Button onClick={() => props.userStore.signOut()}>
                   Logout
                 </Button>
