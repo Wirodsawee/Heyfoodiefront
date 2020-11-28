@@ -1,0 +1,419 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.a-point{
+  cursor: pointer !important;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.bg-color {
+  background-color: #fee8c6;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.input-form {
+  border-left: 0px;
+  border-right: 0px;
+  border-top: 0px;
+  border-color: black;
+  width: auto;
+  margin: 5px;
+  padding: 5px;
+}
+
+.a-form {
+  margin: 10px;
+  padding: 10px;
+  text-align: center;
+  cursor: pointer !important;
+}
+
+.card-img {
+  width: 100px;
+  height: 150px;
+  margin: 20px;
+  padding: 20px;
+  align-items: center;
+}
+
+.col-md-2.button {
+  text-align: center;
+  padding: 8%;
+}
+
+.btn.btn-primary {
+  border-radius: 20 !important;
+}
+
+.btn.btn-outline-primary {
+  border-color: darkorange !important;
+  width: 100%;
+  color: darkorange !important;
+  background-color: transparent !important;
+  font-family: "Kanit", sans-serif;
+}
+
+.btn.btn-outline-primary:hover {
+  background-color: darkorange !important;
+  width: 100%;
+  color: white !important;
+}
+
+.btn-primary,
+.btn-primary:hover,
+.btn-primary:active,
+.btn-primary:visited {
+  width: 100%;
+  background-color: darkorange !important;
+  border-color: darkorange !important;
+  outline-color: darkorange !important;
+  box-shadow: none !important;
+  -moz-box-shadow: none !important;
+}
+
+.btn-cart,
+.btn-cart:hover,
+.btn-cart:active,
+.btn-del,
+.btn-del:hover,
+.btn-del:active {
+  background-color: Transparent !important;
+  border: none !important;
+  cursor: pointer !important;
+  overflow: hidden !important;
+  outline: none !important;
+  box-shadow: none !important;
+  -moz-box-shadow: none !important;
+  margin: 0px !important;
+  padding: 0px !important;
+}
+
+.card {
+  font-family: "Kanit", sans-serif;
+  width: 980px;
+  height: 154;
+  margin: 20px auto;
+  float: none;
+  justify-content: center;
+}
+
+.col-md-6 {
+  float: none;
+  position: absolute;
+  margin: 30px;
+  padding: 10px;
+}
+.card-title {
+  font-size: 30;
+}
+
+.card-text {
+  margin-bottom: 20px;
+}
+
+.list-ingredient.list-unstyled {
+  display: inline-flex;
+  font-size: 15px;
+}
+
+.material-icons {
+  font-family: "Material Icons";
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px; /* Preferred icon size */
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+
+  /* Support for all WebKit browsers. */
+  -webkit-font-smoothing: antialiased;
+  /* Support for Safari and Chrome. */
+  text-rendering: optimizeLegibility;
+
+  /* Support for Firefox. */
+  -moz-osx-font-smoothing: grayscale;
+
+  /* Support for IE. */
+  font-feature-settings: "liga";
+}
+
+.navbar-brand {
+  font-family: "Kanit", sans-serif !important;
+  font-size: 30px !important;
+  margin-left: 50px !important;
+  color: white !important;
+  cursor: pointer !important;
+}
+
+.navbar-link {
+  font-family: "Kanit", sans-serif !important;
+  font-size: 16px !important;
+  color: white !important;
+  margin-left: auto;
+  cursor: pointer !important;
+}
+
+.form-check-input {
+  cursor: pointer !important;
+}
+
+.food-navbar-expand-lg {
+  height: 65px !important;
+  background-color: #ffaa00 !important;
+}
+
+.nav-user {
+  width: 25px;
+  height: 25px;
+  margin-right: 0.5rem;
+}
+
+.nav-cart {
+  width: 25px;
+  height: 25px;
+}
+
+.badge.badge-secondary.badge-pill {
+  background-color: #d4320e;
+  color: white;
+}
+
+.d-block.w-100 {
+  width: 100% !important;
+  height: 525px;
+}
+
+.carousel {
+  width: 100%;
+  margin: auto;
+  margin-bottom: 100px;
+}
+
+.con {
+  width: 100% !important;
+}
+.min-vw {
+  width: 1024px !important;
+}
+
+.footer-foot {
+  font-family: "Kanit", sans-serif;
+  color: white;
+  margin-top: 100px;
+  padding-top: 40px;
+  width: 100%;
+  height: 265px;
+  background-color: #ffaa00;
+}
+
+.col-md-5.mt-md-0.mt-3 {
+  padding-left: 50px;
+  padding-top: 25px;
+}
+
+.col-md-3.mb-md-0.mb-3 {
+  margin-left: 50px;
+}
+.text-store {
+  font-size: 36px;
+}
+
+.text-uppercase {
+  font-size: 20px;
+  padding-left: 30px;
+  padding-top: 2px;
+}
+
+.img-footer {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+
+.list-unstyled.place li {
+  font-size: 20px;
+}
+
+.list-unstyled li {
+  margin-bottom: 5px;
+}
+
+.footer-hr {
+  border-top: 2px solid white;
+  width: 93%;
+}
+
+.footer-copyright.text-left {
+  padding-left: 50px;
+  float: left;
+}
+
+.footer.text-right {
+  float: right;
+  padding-right: 50px;
+}
+
+.popover {
+  width: 100%;
+  background-color: #fee8c6 !important;
+  border: none !important;
+  font-family: "Kanit", sans-serif !important;
+  font-size: 14px !important;
+  color: black !important;
+  margin-left: auto;
+}
+
+.text-left {
+  float: left;
+  padding-top: 10px;
+  padding-left: 5px;
+}
+
+.text-right {
+  float: right;
+  padding-top: 10px;
+  padding-right: 10px;
+}
+
+.facebook {
+  margin: auto;
+  width: 200px;
+}
+
+.total.text-right {
+  margin-top: 5px;
+}
+
+#popover-basic {
+  float: right !important;
+  margin-right: auto;
+  width: 100% !important;
+  background-color: #fee8c6;
+  border: none;
+}
+
+.card-block,
+.card.cart {
+  background-color: #fee8c6 !important;
+  font-family: "Kanit", sans-serif;
+  border: none;
+  width: 250px;
+}
+
+.list-menu {
+  width: 250px;
+  margin-bottom: 10px;
+}
+
+.order {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.img-icon {
+  width: 15px;
+  height: 15px;
+  margin-top: -2px;
+  margin-left: -5px !important;
+  cursor: pointer !important;
+}
+
+.shoppingCart {
+  width: 100%;
+}
+
+.noItem {
+  height: 100px;
+  text-align: center;
+  padding: 45px;
+}
+
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0, 0, 0); /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-item {
+  font-size: 12px;
+  font-family: "Kanit", sans-serif;
+  color: black;
+}
+
+.dropdown-item:hover {
+  display: block;
+  background-color: darkorange !important;
+}
